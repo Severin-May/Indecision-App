@@ -1,0 +1,32 @@
+.add-option {
+    display: flex;
+    padding: 1.6rem;
+    flex-direction: column;
+}
+
+.add-option-error {
+    color: #a5afd7;
+    font-style: italic;
+    padding: 0 1.6rem;
+    margin: 1.6rem 0 0 0;
+}
+
+.add-option__input {
+    flex-grow: 1;
+    background-color: #333745;
+    border: none;
+    border-bottom: .3rem solid #2d303b;
+    margin: 0 0 .8rem 0;
+    color: white;
+    padding: .8rem;
+}
+
+@media(min-width: 45rem) {
+    .add-option {
+        color: red;
+        flex-direction: row;
+    }
+    .add-option__input {
+        margin: 0 .8rem 0 0;
+    }
+}
